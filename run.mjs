@@ -9,8 +9,8 @@ import {
   requireExclusive,
   selectors,
   value,
-} from '@cairul/plugin-kit/runner';
-import { playwright } from '@cairul/plugin-kit/reports';
+} from '@cairul/pdk/runner';
+import { playwright } from '@cairul/pdk/reports';
 
 export default {
   command: ['playwright'],

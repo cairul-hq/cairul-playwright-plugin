@@ -1,6 +1,6 @@
-import { testRunner } from '@cairul/plugin-kit/runner';
+import { testRunner } from '@cairul/pdk/runner';
 import adapter from './run.mjs';
-import { playwright, junit, testPlugin } from '@cairul/plugin-kit/reports';
+import { playwright, junit, testPlugin } from '@cairul/pdk/reports';
 
 const reports = testPlugin('playwright.passed', { json: playwright, junit });
 
